@@ -1,0 +1,82 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(240, 240, 240);
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.text{
+    padding: 10px 15px;
+    width: 500px;
+    min-height: 1,5em;
+    max-height: 16em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+    background-color: #c6e1fc;
+    
+    border-top: 1px solid rgba(0, 0, 0, 5%);
+    border-left: 1px solid rgba(0, 0, 0, 5%);
+    border-right: 1px solid rgba(0, 0, 0, 5%);
+    border-bottom: 8px solid #1B9CFC;
+    border-radius: 5px 5px 10px 10px;
+    box-shadow: 1px 1px 8px 0px rgb(0, 0, 0, 25%);
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.new-line{
+    display: block;
+    box-sizing: border-box;
+    min-height: 1em;
+    margin-top: 1px;
+}
+
+.indent1{
+    box-sizing: border-box;
+    padding-left: 12px;
+}
+
+.indent2{
+    box-sizing: border-box;
+    padding-left: 24px;
+}
+
+.indent3{
+    box-sizing: border-box;
+    padding-left: 36px;
+}
+
+.indent4{
+    box-sizing: border-box;
+    padding-left: 48px;
+}
+
+.comment{
+    letter-spacing: 1px;
+    color: rgb(29, 59, 26);
+}
+
+.element-selector{
+    font-weight: 550;
+    color: #219624;
+}
+
+.property-selector{
+    font-weight: 550;
+    color: #ef2626;
+}
+
+.value-selector{
+    font-weight: 550;
+    color: #1622b9;
+}
