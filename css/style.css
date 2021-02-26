@@ -9,9 +9,10 @@ html, body{
     font-family: sans-serif;
 }
 
+
 .text{
     padding: 10px 15px;
-    width: 500px;
+    width: 400px;
     min-height: 1,5em;
     max-height: 16em;
     overflow-x: hidden;
@@ -25,6 +26,29 @@ html, body{
     border-bottom: 8px solid #1B9CFC;
     border-radius: 5px 5px 10px 10px;
     box-shadow: 1px 1px 8px 0px rgb(0, 0, 0, 25%);
+    z-index: 1;
+}
+
+.copybutton{
+    position: absolute;
+    box-sizing: border-box;
+    width: 400px;
+    height: 30px;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    transform: translate(-50%, 140px);
+
+    background: rgb(253, 235, 132);
+
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 20%);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0, 8%);
+}
+
+.copybutton:hover{
+    transform: translate(-50%, 140px) scale(1.01);
+    background-color: rgb(255, 242, 168);
 }
 
 .center{
